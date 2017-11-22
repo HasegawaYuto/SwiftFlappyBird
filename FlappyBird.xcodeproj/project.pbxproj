@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7904D05E1FC5479E00795E67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7904D05D1FC5479E00795E67 /* AVFoundation.framework */; };
+		7904D0611FC5482F00795E67 /* itemGet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7904D05F1FC5482F00795E67 /* itemGet.mp3 */; };
+		7904D0621FC5482F00795E67 /* scoreUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7904D0601FC5482F00795E67 /* scoreUp.mp3 */; };
 		7974C9341FC3C9C100B3558E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974C9331FC3C9C100B3558E /* AppDelegate.swift */; };
 		7974C9361FC3C9C100B3558E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974C9351FC3C9C100B3558E /* ViewController.swift */; };
 		7974C9391FC3C9C100B3558E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7974C9371FC3C9C100B3558E /* Main.storyboard */; };
 		7974C93B1FC3C9C100B3558E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7974C93A1FC3C9C100B3558E /* Assets.xcassets */; };
 		7974C93E1FC3C9C100B3558E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7974C93C1FC3C9C100B3558E /* LaunchScreen.storyboard */; };
+		7974C9471FC3CA8000B3558E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7974C9461FC3CA8000B3558E /* SpriteKit.framework */; };
+		7974C9491FC3CFE400B3558E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974C9481FC3CFE400B3558E /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7904D05D1FC5479E00795E67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7904D05F1FC5482F00795E67 /* itemGet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = itemGet.mp3; sourceTree = "<group>"; };
+		7904D0601FC5482F00795E67 /* scoreUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scoreUp.mp3; sourceTree = "<group>"; };
 		7974C9301FC3C9C100B3558E /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7974C9331FC3C9C100B3558E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7974C9351FC3C9C100B3558E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		7974C93A1FC3C9C100B3558E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7974C93D1FC3C9C100B3558E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7974C93F1FC3C9C100B3558E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7974C9461FC3CA8000B3558E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		7974C9481FC3CFE400B3558E /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7904D05E1FC5479E00795E67 /* AVFoundation.framework in Frameworks */,
+				7974C9471FC3CA8000B3558E /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,7 @@
 			children = (
 				7974C9321FC3C9C100B3558E /* FlappyBird */,
 				7974C9311FC3C9C100B3558E /* Products */,
+				7974C9451FC3CA8000B3558E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,26 @@
 		7974C9321FC3C9C100B3558E /* FlappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				7904D05F1FC5482F00795E67 /* itemGet.mp3 */,
+				7904D0601FC5482F00795E67 /* scoreUp.mp3 */,
 				7974C9331FC3C9C100B3558E /* AppDelegate.swift */,
 				7974C9351FC3C9C100B3558E /* ViewController.swift */,
 				7974C9371FC3C9C100B3558E /* Main.storyboard */,
 				7974C93A1FC3C9C100B3558E /* Assets.xcassets */,
+				7974C9481FC3CFE400B3558E /* GameScene.swift */,
 				7974C93C1FC3C9C100B3558E /* LaunchScreen.storyboard */,
 				7974C93F1FC3C9C100B3558E /* Info.plist */,
 			);
 			path = FlappyBird;
+			sourceTree = "<group>";
+		};
+		7974C9451FC3CA8000B3558E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7904D05D1FC5479E00795E67 /* AVFoundation.framework */,
+				7974C9461FC3CA8000B3558E /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7904D0611FC5482F00795E67 /* itemGet.mp3 in Resources */,
 				7974C93E1FC3C9C100B3558E /* LaunchScreen.storyboard in Resources */,
+				7904D0621FC5482F00795E67 /* scoreUp.mp3 in Resources */,
 				7974C93B1FC3C9C100B3558E /* Assets.xcassets in Resources */,
 				7974C9391FC3C9C100B3558E /* Main.storyboard in Resources */,
 			);
@@ -136,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7974C9491FC3CFE400B3558E /* GameScene.swift in Sources */,
 				7974C9361FC3C9C100B3558E /* ViewController.swift in Sources */,
 				7974C9341FC3C9C100B3558E /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +327,7 @@
 				7974C9441FC3C9C100B3558E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
